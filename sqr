@@ -1,0 +1,13 @@
+using System;
+
+namespace Square
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Square square = new Square(4, 6);
+            square.OutputData();
+        }
+    }
+}
